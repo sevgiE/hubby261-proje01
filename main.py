@@ -8,9 +8,9 @@ useGetURL = GetURL()
 print(" Sevgi'nin mini örümceğine hoşgeldiniz! " )
 print(" İçeride çay hizmetimiz bulunmaktadır.( İndirimde 5 lira) ")
 print("|🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️|")
-print("")
 nick = input("Lütfen nickinizi giriniz: ")
 print("Merhaba!" '\n' + nick + '\n' "Mini örümcek emrinize amadedir, ne istediğinizi lütfen geçerli numaralı sayılarla belirtiniz!!!" + "\n")
+print("")
 time.sleep(2)
 
 
@@ -34,6 +34,6 @@ while True:
 else:
        print("Lütfen numaraları verilen sayılar haricinde girmeyiniz.(SAYILAR: 0,1,2,3,4)!")
        print("Menü başa sarılıyor...")
-        time.sleep(2)
+    time.sleep(2)
   
       
