@@ -5,7 +5,7 @@ from getURL import GetURL
 useDataURL = DataURL()
 useGetURL = GetURL()
 
-print(" Sevgi'nin mini örümceğine hoşgeldiniz! :)) " )
+print(" Sevgi'nin mini örümceğine hoşgeldiniz! " )
 print(" İçeride çay hizmetimiz bulunmaktadır.( İndirimde 5 lira) ")
 print("|🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️|")
 print("")
