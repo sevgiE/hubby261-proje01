@@ -9,10 +9,10 @@ print(" Sevgi'nin mini örümceğine hoşgeldiniz! " )
 print(" İçeride çay hizmetimiz bulunmaktadır.( İndirimde 5 lira) ")
 print("|🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️|")
 print("")
-time.sleep(2)
-
 nick = input("Lütfen nickinizi giriniz: ")
 print("Merhaba!" '\n' + nick + '\n' "Mini örümcek emrinize amadedir, ne istediğinizi lütfen geçerli numaralı sayılarla belirtiniz!!!" + "\n")
+time.sleep(2)
+
 
 while True:
     print("Menü: 0)Çıkış 1)URL Listele 2)URL Ekle 3)Örümcek Gönder 4)Sonuçları Listele ")
