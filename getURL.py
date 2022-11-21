@@ -12,7 +12,7 @@ class GetURL:
 
     def getWeb(self):
 
-        print("Örümcek çalışıyor...")
+        print("Mini örümcek yükleniyor... Lütfen bekleyiniz._.")
 
         dataOpen = open(self.dataFile, 'r')
         getOpen = open(self.getFile, 'w')
@@ -24,14 +24,19 @@ class GetURL:
             webSite.close()
             soup = BeautifulSoup(webPage, 'html.parser')
             getOpen.write(dataGet.strip() + " - " + soup.title.contents[0] + "\n")
-        dataOpen.close()
-        getOpen.close()
+        dataFile.close()
+        getFile.close()
 
-        print("Çalışma tamamlandı!")
+        print("Çalışma oluşturuldu!")
 
     def getList(self):
 
-        getOpen = open(self.getFile, 'r')
+        getOpen = open(self.getFile, 'w')
         for dataShow in getOpen:
           print(dataShow)
-        getOpen.close()
+        getFile.close()
+        
+        dataFile = open(self.dataFile, 'r')
+        for dataShow in dataFile:
+          print(dataShow)
+        dataFile.close()
