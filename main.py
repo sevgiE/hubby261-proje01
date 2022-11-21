@@ -5,23 +5,28 @@ from getURL import GetURL
 useDataURL = DataURL()
 useGetURL = GetURL()
 
-print("-: Mini Örümceğe hoş geldiniz! :-")
-print("|------------------------------|")
+print(" Sevgi'nin mini örümceğine hoşgeldiniz! :)) )
+print(" İçeride çay hizmetimiz bulunmaktadır.( İndirimde 5 lira) ")
+print("|🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️🕷️|")
 print("")
-time.sleep(2)
+nick = input("Lütfen nickinizi giriniz: ")
+print("Merhaba!" '\n' + nick + '\n' "Mini örümcek emrinize amadedir, ne istediğinizi lütfen geçerli numaralı sayılarla belirtiniz!!!" + "\n")
 
 while True:
-    print("Menü: 0)Çıkış 1)URL Listele 2)URL Ekle 3)Örümcek Gönder 4)Sonuçları Listele")
-    menuSecim = int(input("Tercihiniz: "))
+    print("Menü: 0)Çıkış 1)URL Listele 2)URL Ekle 3)Örümcek Gönder 4)Sonuçları Listele ")
+    sayiSecim = int(input("Yapmak istediğiniz işlemin numarasını giriniz: "))
     if menuSecim == 0:
-        print("Mini Örümcek kapatılıyor...")
-        time.sleep(1)
-        break
-    elif menuSecim == 1:
+        print("Sevgi'nin Mini Örümceği kapatılıyor... Tekrar görüşmek dileğiyle ._.🕷️")
+        
+    elif sayiSecim== 1:
         useDataURL.dataRead()
-    elif menuSecim == 2:
+    elif sayiSecim == 2:
         useDataURL.dataWrite()
-    elif menuSecim == 3:
+    elif sayiSecim == 3:
         useGetURL.getWeb()
-    elif menuSecim == 4:
+    elif sayiSecim == 4:
         useGetURL.getList()
+    elif sayiSecim == 0:
+        useDataURL.dataBreak()
+  
+      
